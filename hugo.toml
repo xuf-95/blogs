@@ -1,0 +1,54 @@
+# baseURL = 'https://example.org/'
+baseURL = '/'
+languageCode = 'en-us'
+title = 'XuF'
+theme = 'mainroad'
+
+[Author]
+  name = "XuF"
+  bio = "XuF true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  avatar = "img/avatar.png"
+
+[Params]
+  description = "XuF Personal blog about everything" # Description of your site
+  opengraph = true
+  twitter_cards = true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true
+  pager = true
+  post_meta = ["date", "categories"] # Order of post meta information
+  mainSections = ["post", "docs"]
+
+[Params.logo]
+  subtitle = "如果你也喜欢王小波，那我们多数可以成为好朋友" # Logo subtitle
+  image = "img/avatar.png"
+
+[Params.thumbnail]
+  visibility = ["list", "post"] # Control thumbnail visibility
+
+[Params.sidebar]
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+
+[Params.widgets.social]
+  cached = false # activate cache if true
+  # Enable parts of social widget
+  twitter = "pfx95"
+  instagram = "username"
+  telegram = "username"
+  github = "xuf-95"
+  email = ""
+
+# [[Params.widgets.social.custom]]
+#  title = "Youtube"
+#  url = "https://youtube.com/user/user-lk8es4bz5y"
+#  icon = "facebook.svg" # Optional. Path relative to "layouts/partials"
+#  rel = "noopener noreferrer" # Set to false to remove the rel attribute
